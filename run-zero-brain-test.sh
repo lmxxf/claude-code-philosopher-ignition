@@ -45,9 +45,9 @@ run_zero_brain_test() {
 
     echo "🔵 STEP 1: Open Claude Code, copy-paste this:"
     echo ""
-    echo "┌─────────────────────────────────────┐"
-    echo "│ $default_prompt"
-    echo "└─────────────────────────────────────┘"
+    echo "=== COPY THIS ==="
+    echo "$default_prompt"
+    echo "=== END COPY ==="
     echo ""
 
     read -p "Got the response? Press ENTER..."
@@ -55,9 +55,9 @@ run_zero_brain_test() {
     echo ""
     echo "🟢 STEP 2: Open NEW Claude Code session, copy-paste this:"
     echo ""
-    echo "┌─────────────────────────────────────┐"
-    echo "│ $enhanced_prompt"
-    echo "└─────────────────────────────────────┘"
+    echo "=== COPY THIS ==="
+    echo "$enhanced_prompt"
+    echo "=== END COPY ==="
     echo ""
 
     read -p "Got the response? Press ENTER..."
