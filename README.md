@@ -93,10 +93,11 @@ Not random problems - the **industry-recognized hardest challenges**:
 - `claude-code-philosopher-ignition-en.md` - English framework
 - `claude-code-philosopher-ignition-cn.md` - Chinese framework
 - `top_10_hardest_programming_problems.md` - Ultimate test challenges
-- `test-instructions.md` - Detailed testing guide
-- `run-comparison-test.sh` - **Automated testing script** for all 10 problems
-- `test-automation-guide.md` - Complete automation guide
-- `meta_cognitive_architect_advantage_report.md` - Scientific analysis
+- `run-zero-brain-test.sh` - **Zero-effort test** (10 min, just choose A or B!)
+- `run-comparison-test.sh` - **Scientific evaluation** (60 min, bulletproof methodology)
+- `test-automation-guide.md` - Complete testing strategy guide
+- `test-instructions.md` - Manual testing instructions
+- `meta_cognitive_architect_advantage_report.md` - Research analysis
 
 ---
 
@@ -110,14 +111,23 @@ Not random problems - the **industry-recognized hardest challenges**:
 3. Paste it and ask any hard programming question
 4. Watch your Claude Code transform into a programming genius
 
-### Complete Evaluation (60 minutes) | 完整评估（60分钟）
-**Want scientific proof? Run our automated test suite:**
+### Automated Proof (10 minutes) | 自动化证明（10分钟）
+**Want scientific proof with zero effort? Run our zero-brain test:**
+
+```bash
+./run-zero-brain-test.sh
+```
+
+**Tests 3 problems, you just choose A or B. No thinking required!**
+
+### Bulletproof Validation (60 minutes) | 无懈可击的验证（60分钟）
+**Need to convince skeptics? Run our rigorous scientific evaluation:**
 
 ```bash
 ./run-comparison-test.sh
 ```
 
-**Tests all 10 hardest problems automatically and generates statistical comparison report.**
+**Multi-dimensional scoring, 10 hardest problems, academic-grade methodology.**
 
 **Ready to make your Claude Code 3-5x smarter?** 🚀
 
