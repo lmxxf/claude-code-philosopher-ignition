@@ -94,18 +94,30 @@ Not random problems - the **industry-recognized hardest challenges**:
 - `claude-code-philosopher-ignition-cn.md` - Chinese framework
 - `top_10_hardest_programming_problems.md` - Ultimate test challenges
 - `test-instructions.md` - Detailed testing guide
+- `run-comparison-test.sh` - **Automated testing script** for all 10 problems
+- `test-automation-guide.md` - Complete automation guide
 - `meta_cognitive_architect_advantage_report.md` - Scientific analysis
 
 ---
 
 ## ⭐ Try It Now | 立即试用
 
+### Quick Test (2 minutes) | 快速测试（2分钟）
 **No risk. No installation. Just copy-paste and see the difference.**
 
 1. Open Claude Code
 2. Copy content from `claude-code-philosopher-ignition-en.md`
 3. Paste it and ask any hard programming question
 4. Watch your Claude Code transform into a programming genius
+
+### Complete Evaluation (60 minutes) | 完整评估（60分钟）
+**Want scientific proof? Run our automated test suite:**
+
+```bash
+./run-comparison-test.sh
+```
+
+**Tests all 10 hardest problems automatically and generates statistical comparison report.**
 
 **Ready to make your Claude Code 3-5x smarter?** 🚀
 
