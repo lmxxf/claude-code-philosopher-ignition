@@ -1,16 +1,16 @@
-# HumanEval 前20题完整题目
+# HumanEval First 20 Problems Complete Collection | HumanEval 前20题完整题目
 
-## 题目概览
-- **总题数**: 20题
-- **来源**: HumanEval官方数据集前20题（按task_id排序）
-- **类型**: Python编程问题
-- **用途**: 提示词工程效果对比测试
+## Overview | 题目概览
+- **Total Problems | 总题数**: 20
+- **Source | 来源**: First 20 problems from HumanEval official dataset (sorted by task_id) | HumanEval官方数据集前20题（按task_id排序）
+- **Type | 类型**: Python programming problems | Python编程问题
+- **Purpose | 用途**: Prompt engineering effectiveness comparison testing | 提示词工程效果对比测试
 
 ---
 
-## 完整题目列表
+## Complete Problem List | 完整题目列表
 
-### 1. HumanEval/0 - 数值距离比较
+### 1. HumanEval/0 - Numerical Distance Comparison | 数值距离比较
 ```python
 from typing import List
 
@@ -24,7 +24,7 @@ def has_close_elements(numbers: List[float], threshold: float) -> bool:
     """
 ```
 
-### 2. HumanEval/1 - 括号分组
+### 2. HumanEval/1 - Parentheses Grouping | 括号分组
 ```python
 from typing import List
 
@@ -38,7 +38,7 @@ def separate_paren_groups(paren_string: str) -> List[str]:
     """
 ```
 
-### 3. HumanEval/10 - 回文构造
+### 3. HumanEval/10 - Palindrome Construction | 回文构造
 ```python
 def is_palindrome(string: str) -> bool:
     """ Test if given string is a palindrome """
@@ -58,7 +58,7 @@ def make_palindrome(string: str) -> str:
     """
 ```
 
-### 4. HumanEval/100 - 石堆构建
+### 4. HumanEval/100 - Stone Pile Construction | 石堆构建
 ```python
 def make_a_pile(n):
     """
@@ -76,7 +76,7 @@ def make_a_pile(n):
     """
 ```
 
-### 5. HumanEval/101 - 字符串分词
+### 5. HumanEval/101 - String Tokenization | 字符串分词
 ```python
 def words_string(s):
     """
@@ -89,7 +89,7 @@ def words_string(s):
     """
 ```
 
-### 6. HumanEval/102 - 最大偶数查找
+### 6. HumanEval/102 - Maximum Even Number Search | 最大偶数查找
 ```python
 def choose_num(x, y):
     """This function takes two positive numbers x and y and returns the
@@ -102,7 +102,7 @@ def choose_num(x, y):
     """
 ```
 
-### 7. HumanEval/103 - 平均值计算与进制转换
+### 7. HumanEval/103 - Average Calculation and Base Conversion | 平均值计算与进制转换
 ```python
 def rounded_avg(n, m):
     """You are given two positive integers n and m, and your task is to compute the
@@ -117,7 +117,7 @@ def rounded_avg(n, m):
     """
 ```
 
-### 8. HumanEval/104 - 无偶数位数字过滤
+### 8. HumanEval/104 - Filter Numbers Without Even Digits | 无偶数位数字过滤
 ```python
 def unique_digits(x):
     """Given a list of positive integers x. return a sorted list of all
@@ -133,7 +133,7 @@ def unique_digits(x):
     """
 ```
 
-### 9. HumanEval/105 - 数字转英文名称
+### 9. HumanEval/105 - Number to English Name Conversion | 数字转英文名称
 ```python
 def by_length(arr):
     """
@@ -159,7 +159,7 @@ def by_length(arr):
     """
 ```
 
-### 10. HumanEval/106 - 条件数列生成
+### 10. HumanEval/106 - Conditional Sequence Generation | 条件数列生成
 ```python
 def f(n):
     """ Implement the function f that takes n as a parameter,
@@ -172,7 +172,7 @@ def f(n):
     """
 ```
 
-### 11. HumanEval/107 - 回文数统计
+### 11. HumanEval/107 - Palindrome Number Statistics | 回文数统计
 ```python
 def even_odd_palindrome(n):
     """
@@ -199,7 +199,7 @@ def even_odd_palindrome(n):
     """
 ```
 
-### 12. HumanEval/108 - 数字位数和统计
+### 12. HumanEval/108 - Digit Sum Statistics | 数字位数和统计
 ```python
 def count_nums(arr):
     """
@@ -213,7 +213,7 @@ def count_nums(arr):
     """
 ```
 
-### 13. HumanEval/109 - 循环右移排序判断
+### 13. HumanEval/109 - Circular Right Shift Sorting Check | 循环右移排序判断
 ```python
 def move_one_ball(arr):
     """We have an array 'arr' of N integers arr[1], arr[2], ..., arr[N].The
@@ -244,7 +244,7 @@ def move_one_ball(arr):
     """
 ```
 
-### 14. HumanEval/11 - 二进制XOR运算
+### 14. HumanEval/11 - Binary XOR Operation | 二进制XOR运算
 ```python
 from typing import List
 
@@ -256,7 +256,7 @@ def string_xor(a: str, b: str) -> str:
     """
 ```
 
-### 15. HumanEval/110 - 数组元素交换判断
+### 15. HumanEval/110 - Array Element Exchange Check | 数组元素交换判断
 ```python
 def exchange(lst1, lst2):
     """In this problem, you will implement a function that takes two lists of numbers,
@@ -273,7 +273,7 @@ def exchange(lst1, lst2):
     """
 ```
 
-### 16. HumanEval/111 - 字符频率统计
+### 16. HumanEval/111 - Character Frequency Statistics | 字符频率统计
 ```python
 def histogram(test):
     """Given a string representing a space separated lowercase letters, return a dictionary
@@ -290,7 +290,7 @@ def histogram(test):
     """
 ```
 
-### 17. HumanEval/112 - 字符删除与回文检查
+### 17. HumanEval/112 - Character Deletion and Palindrome Check | 字符删除与回文检查
 ```python
 def reverse_delete(s,c):
     """Task
@@ -305,7 +305,7 @@ def reverse_delete(s,c):
     """
 ```
 
-### 18. HumanEval/113 - 奇数统计与模板填充
+### 18. HumanEval/113 - Odd Count and Template Filling | 奇数统计与模板填充
 ```python
 def odd_count(lst):
     """Given a list of strings, where each string consists of only digits, return a list.
@@ -321,7 +321,7 @@ def odd_count(lst):
     """
 ```
 
-### 19. HumanEval/114 - 最小子数组和
+### 19. HumanEval/114 - Minimum Subarray Sum | 最小子数组和
 ```python
 def minSubArraySum(nums):
     """
@@ -333,7 +333,7 @@ def minSubArraySum(nums):
     """
 ```
 
-### 20. HumanEval/115 - 网格排水问题
+### 20. HumanEval/115 - Grid Water Drainage Problem | 网格排水问题
 ```python
 def max_fill(grid, capacity):
     import math
@@ -374,25 +374,25 @@ def max_fill(grid, capacity):
 
 ---
 
-## 题目类型分析
+## Problem Type Analysis | 题目类型分析
 
-### 算法类型分布
-- **数组操作**: 8题 (HumanEval/0, 100, 105, 106, 109, 110, 114, 115)
-- **字符串处理**: 7题 (HumanEval/1, 10, 101, 111, 112, 113, 11)
-- **数学计算**: 4题 (HumanEval/102, 103, 107, 108)
-- **综合应用**: 1题 (HumanEval/104)
+### Algorithm Type Distribution | 算法类型分布
+- **Array Operations | 数组操作**: 8 problems | 8题 (HumanEval/0, 100, 105, 106, 109, 110, 114, 115)
+- **String Processing | 字符串处理**: 7 problems | 7题 (HumanEval/1, 10, 101, 111, 112, 113, 11)
+- **Mathematical Computation | 数学计算**: 4 problems | 4题 (HumanEval/102, 103, 107, 108)
+- **Comprehensive Application | 综合应用**: 1 problem | 1题 (HumanEval/104)
 
-### 难度评估
-- **简单**: 12题 (基础操作和简单逻辑)
-- **中等**: 7题 (需要算法思维和边界处理)
-- **较难**: 1题 (HumanEval/109 需要深入理解循环移位)
+### Difficulty Assessment | 难度评估
+- **Easy | 简单**: 12 problems | 12题 (Basic operations and simple logic | 基础操作和简单逻辑)
+- **Medium | 中等**: 7 problems | 7题 (Require algorithmic thinking and boundary handling | 需要算法思维和边界处理)
+- **Hard | 较难**: 1 problem | 1题 (HumanEval/109 requires deep understanding of circular shift | HumanEval/109 需要深入理解循环移位)
 
-### 测试重点
-- **边界条件处理**: 空输入、单元素、特殊值
-- **算法正确性**: 逻辑实现和时间复杂度
-- **代码质量**: 可读性、错误处理、注释
-- **工程实践**: 权衡分析、风险识别
+### Testing Focus | 测试重点
+- **Boundary Condition Handling | 边界条件处理**: Empty input, single element, special values | 空输入、单元素、特殊值
+- **Algorithm Correctness | 算法正确性**: Logic implementation and time complexity | 逻辑实现和时间复杂度
+- **Code Quality | 代码质量**: Readability, error handling, comments | 可读性、错误处理、注释
+- **Engineering Practices | 工程实践**: Trade-off analysis, risk identification | 权衡分析、风险识别
 
 ---
 
-*此文件用于HumanEval前20题提示词工程对比测试*
+*This file is used for HumanEval first 20 problems prompt engineering comparison testing | 此文件用于HumanEval前20题提示词工程对比测试*
