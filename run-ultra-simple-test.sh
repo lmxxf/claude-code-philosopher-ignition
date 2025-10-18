@@ -74,13 +74,20 @@ run_test() {
     read -p "Got the response? Press ENTER..."
 
     echo ""
-    echo "🤔 Which response was better?"
-    echo "   A) Window A response (default Claude Code)"
-    echo "   B) Window B response (enhanced Claude Code)"
+    echo "🤔 EVALUATION:"
+    echo ""
+    echo "Consider: Which response would you prefer if you were:"
+    echo "• A student learning programming"
+    echo "• A senior engineer solving complex problems"
+    echo "• Someone who needs to understand edge cases and risks"
+    echo ""
+    echo "   A) Window A response (default)"
+    echo "   B) Window B response (enhanced)"
+    echo "   C) DRAW (both equally good)"
     echo ""
 
     while true; do
-        read -p "Choose A or B: " choice
+        read -p "Choose A, B, or C: " choice
         case $choice in
             [Aa]* )
                 echo "default" >> test/votes.txt
@@ -90,7 +97,11 @@ run_test() {
                 echo "enhanced" >> test/votes.txt
                 echo "   ✅ Recorded: Enhanced wins"
                 break;;
-            * ) echo "   Just type A or B...";;
+            [Cc]* )
+                echo "draw" >> test/votes.txt
+                echo "   ✅ Recorded: Draw"
+                break;;
+            * ) echo "   Just type A, B, or C...";;
         esac
     done
 }
@@ -114,21 +125,27 @@ echo ""
 
 default_wins=$(grep -c "default" test/votes.txt 2>/dev/null || echo "0")
 enhanced_wins=$(grep -c "enhanced" test/votes.txt 2>/dev/null || echo "0")
+draws=$(grep -c "draw" test/votes.txt 2>/dev/null || echo "0")
 
 echo "📊 FINAL RESULTS:"
 echo ""
 echo "   Default Claude Code: $default_wins wins"
 echo "   Enhanced Framework:  $enhanced_wins wins"
+echo "   Draws:               $draws"
 echo ""
 
-if [ "$enhanced_wins" -gt "$default_wins" ]; then
+if [ "$enhanced_wins" -gt "$default_wins" ] && [ "$enhanced_wins" -gt "$draws" ]; then
     echo "🏆 WINNER: Meta-Cognitive Architect Framework!"
-    echo "✅ Enhanced version shows clear superiority"
-elif [ "$default_wins" -gt "$enhanced_wins" ]; then
-    echo "🤔 Default won - this is unexpected"
-    echo "   Maybe try the more rigorous scientific test?"
+    echo "✅ Enhanced version shows clear preference"
+elif [ "$default_wins" -gt "$enhanced_wins" ] && [ "$default_wins" -gt "$draws" ]; then
+    echo "🤔 Default won - users prefer simplicity"
+    echo "   This suggests our framework may be too verbose"
+elif [ "$draws" -ge "$enhanced_wins" ] && [ "$draws" -ge "$default_wins" ]; then
+    echo "🤝 MOSTLY DRAWS - Both approaches have merit"
+    echo "   Framework provides depth without clear user preference"
 else
-    echo "🤝 TIE - Both approaches performed equally"
+    echo "📊 MIXED RESULTS - No clear winner"
+    echo "   May need more testing or different problems"
 fi
 
 echo ""
