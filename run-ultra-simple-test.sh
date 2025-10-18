@@ -24,57 +24,57 @@ read -p "Ready? Both windows open and framework loaded in Window B? Press ENTER.
 # Create test directories for logging
 mkdir -p test
 
-# Top 10 hardest programming problems
+# 10 Programming trap problems with clear correct answers
 declare -a PROBLEMS=(
-    "Solve: Find minimum moves for k=2 eggs, n=6 floors"
-    "Solve: Expand '{a,b}{c,{d,e}}' and return in lexicographical order"
-    "Solve: Match regex pattern 'a*' with string 'aa'"
-    "Solve: Burst balloons [3,1,5,8] to maximize coins"
-    "Solve: Create max number from nums1=[3,4,6,5], nums2=[9,1,2,5,8,3], k=5"
-    "Solve: Find sliding window maximum for nums=[1,3,-1,-3,5,3,6,7], k=3"
-    "Solve: Find smallest window in 'ADOBECODEBANC' containing 'ABC'"
-    "Solve: Count solutions for n=4 queens puzzle"
-    "Solve: Minimum cuts for palindrome partition of 'aab'"
-    "Solve: Shortest path in grid=[[0,1],[1,0]] from top-left to bottom-right"
+    "Calculate: a = 2147483647, b = 1. What is a + b in 32-bit signed integer?"
+    "Evaluate: Does 0.1 + 0.2 == 0.3 in most programming languages?"
+    "Find: Maximum value index in empty array []"
+    "Calculate: Length of string '👨‍👩‍👧‍👦' (family emoji) as user perceives"
+    "Predict: arr1=[1,2], arr2=[3,4]. After swap_arrays(arr1,arr2), what is arr1?"
+    "Analyze: result = True or side_effect(). Does side_effect() execute?"
+    "Time complexity: i=1; while i<n: for j in range(i): count+=1; i*=2"
+    "Memory: Can largeArray be garbage collected in JavaScript closure?"
+    "Hash: keys=['Aa','BB'] have same hashCode. How many unique keys?"
+    "String: Reverse 'hello' with O(1) space in Java/Python - possible?"
 )
 
 declare -a ENHANCED_PROBLEMS=(
-    "Use first principles thinking and analyze trade-offs. Solve: Find minimum moves for k=2 eggs, n=6 floors"
-    "Use first principles thinking and analyze trade-offs. Solve: Expand '{a,b}{c,{d,e}}' and return in lexicographical order"
-    "Use first principles thinking and analyze trade-offs. Solve: Match regex pattern 'a*' with string 'aa'"
-    "Use first principles thinking and analyze trade-offs. Solve: Burst balloons [3,1,5,8] to maximize coins"
-    "Use first principles thinking and analyze trade-offs. Solve: Create max number from nums1=[3,4,6,5], nums2=[9,1,2,5,8,3], k=5"
-    "Use first principles thinking and analyze trade-offs. Solve: Find sliding window maximum for nums=[1,3,-1,-3,5,3,6,7], k=3"
-    "Use first principles thinking and analyze trade-offs. Solve: Find smallest window in 'ADOBECODEBANC' containing 'ABC'"
-    "Use first principles thinking and analyze trade-offs. Solve: Count solutions for n=4 queens puzzle"
-    "Use first principles thinking and analyze trade-offs. Solve: Minimum cuts for palindrome partition of 'aab'"
-    "Use first principles thinking and analyze trade-offs. Solve: Shortest path in grid=[[0,1],[1,0]] from top-left to bottom-right"
+    "Use first principles thinking and analyze trade-offs. Calculate: a = 2147483647, b = 1. What is a + b in 32-bit signed integer?"
+    "Use first principles thinking and analyze trade-offs. Evaluate: Does 0.1 + 0.2 == 0.3 in most programming languages?"
+    "Use first principles thinking and analyze trade-offs. Find: Maximum value index in empty array []"
+    "Use first principles thinking and analyze trade-offs. Calculate: Length of string '👨‍👩‍👧‍👦' (family emoji) as user perceives"
+    "Use first principles thinking and analyze trade-offs. Predict: arr1=[1,2], arr2=[3,4]. After swap_arrays(arr1,arr2), what is arr1?"
+    "Use first principles thinking and analyze trade-offs. Analyze: result = True or side_effect(). Does side_effect() execute?"
+    "Use first principles thinking and analyze trade-offs. Time complexity: i=1; while i<n: for j in range(i): count+=1; i*=2"
+    "Use first principles thinking and analyze trade-offs. Memory: Can largeArray be garbage collected in JavaScript closure?"
+    "Use first principles thinking and analyze trade-offs. Hash: keys=['Aa','BB'] have same hashCode. How many unique keys?"
+    "Use first principles thinking and analyze trade-offs. String: Reverse 'hello' with O(1) space in Java/Python - possible?"
 )
 
 declare -a PROBLEM_NAMES=(
-    "Super Egg Drop"
-    "Brace Expansion II"
-    "Regex Match"
-    "Burst Balloons"
-    "Create Max Number"
-    "Sliding Window Max"
-    "Window Substring"
-    "N-Queens II"
-    "Palindrome Partition II"
-    "Shortest Path Matrix"
+    "Integer Overflow"
+    "Float Precision"
+    "Array Boundary"
+    "Unicode Length"
+    "Reference vs Value"
+    "Short Circuit"
+    "Time Complexity"
+    "Memory Leak"
+    "Hash Collision"
+    "String Immutable"
 )
 
 declare -a CORRECT_ANSWERS=(
-    "3"
-    "['ac','ad','ae','bc','bd','be']"
-    "true"
-    "167"
-    "[9,8,6,5,3]"
-    "[3,3,5,5,6,7]"
-    "BANC"
-    "2"
+    "-2147483648"
+    "false"
+    "-1"
     "1"
+    "[1,2]"
+    "No"
+    "O(n)"
+    "No"
     "2"
+    "No"
 )
 
 run_test() {
