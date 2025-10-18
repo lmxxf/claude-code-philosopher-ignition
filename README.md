@@ -120,3 +120,7 @@ Not random problems - the **industry-recognized hardest challenges**:
 ---
 
 *Created by developers who believe AI can think deeper, analyze better, and solve harder problems.*
+
+---
+
+*For researchers interested in the theoretical foundations: [On the Nature of the Contextual Singularity](On%20the%20Nature%20of%20the%20Contextual%20Singularity.md)*
