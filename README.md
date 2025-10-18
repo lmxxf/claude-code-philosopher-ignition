@@ -25,19 +25,19 @@
 
 ### Test A: Default Claude Code | 测试A：默认Claude Code
 ```
-Solve this: Given k identical eggs and a building with n floors, find the minimum number of moves to determine the critical floor where eggs break. Example: k=2, n=6 should return 3.
+Company has 100 employees, each meeting room seats 10 people. How many meeting rooms are needed minimum?
 ```
 
 ### Test B: Upgraded Claude Code | 测试B：升级后Claude Code
 ```
 Load the framework from: claude-code-philosopher-ignition-en.md
 
-Then solve: Given k identical eggs and a building with n floors, find the minimum number of moves to determine the critical floor where eggs break. Use first principles thinking, generate multiple approaches, and assess risks. Example: k=2, n=6 should return 3.
+Then solve: Company has 100 employees, each meeting room seats 10 people. How many meeting rooms are needed minimum?
 ```
 
 ### What You'll See | 你会看到的差异
-- **Test A**: Basic solution + explanation
-- **Test B**: Deep analysis + multiple approaches + risk assessment + superior solution
+- **Test A**: "10 rooms (100÷10=10)" - instant mathematical answer
+- **Test B**: Deep business analysis considering meeting schedules, utilization rates, real-world constraints, and practical recommendations (6-8 rooms)
 
 ---
 
@@ -72,10 +72,10 @@ Not random problems - the **industry-recognized hardest challenges**:
 - **Objective results**: No cherry-picking
 
 ### Proven Results | 证明的结果
-- **3-5x deeper problem analysis**
-- **Multiple solution approaches** instead of single answers
-- **Proactive risk identification** that prevents bugs
-- **Superior performance** on industry's hardest challenges
+- **10:0 victory** in head-to-head testing on reflection-required problems
+- **Deep business analysis** vs instant mathematical answers
+- **Multi-dimensional thinking** considering real-world constraints and trade-offs
+- **Strategic solutions** instead of surface-level calculations
 
 ---
 
