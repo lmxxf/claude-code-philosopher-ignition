@@ -89,11 +89,9 @@ Not random problems - the **industry-recognized hardest challenges**:
 
 - `claude-code-philosopher-ignition-en.md` - English framework
 - `claude-code-philosopher-ignition-cn.md` - Chinese framework
-- `top_10_hardest_programming_problems.md` - Ultimate test challenges
-- `run-zero-brain-test.sh` - **Zero-effort test** (10 min, just choose A or B!)
-- `run-comparison-test.sh` - **Scientific evaluation** (60 min, bulletproof methodology)
-- `test-automation-guide.md` - Complete testing strategy guide
-- `test-instructions.md` - Manual testing instructions
+- `run-ultra-simple-test.sh` - **Zero-effort test** (20 min, just choose A or B!)
+- `reflection_problems_10.md` - 10 problems designed to test deep thinking
+- `test_results_summary.md` - Complete 9:0 victory analysis
 - `meta_cognitive_architect_advantage_report.md` - Research analysis
 
 ---
@@ -108,23 +106,14 @@ Not random problems - the **industry-recognized hardest challenges**:
 3. Paste it and ask any hard programming question
 4. Watch your Claude Code transform into a programming genius
 
-### Automated Proof (10 minutes)
-**Want scientific proof with zero effort? Run our zero-brain test:**
+### Scientific Proof (20 minutes)
+**Want objective evidence? Run our reflection-based test:**
 
 ```bash
-./run-zero-brain-test.sh
+./run-ultra-simple-test.sh
 ```
 
-**Tests 3 problems, you just choose A or B. No thinking required!**
-
-### Bulletproof Validation (60 minutes)
-**Need to convince skeptics? Run our rigorous scientific evaluation:**
-
-```bash
-./run-comparison-test.sh
-```
-
-**Multi-dimensional scoring, 10 hardest problems, academic-grade methodology.**
+**Tests 10 business problems designed to reveal thinking differences. You just choose A or B for each response!**
 
 **Ready to make your Claude Code 3-5x smarter?** 🚀
 

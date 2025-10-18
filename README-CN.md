@@ -89,11 +89,9 @@
 
 - `claude-code-philosopher-ignition-cn.md` - 中文框架
 - `claude-code-philosopher-ignition-en.md` - 英文框架
-- `top_10_hardest_programming_problems.md` - 终极测试挑战
-- `run-ultra-simple-test.sh` - **零脑力测试** (10分钟，只需选择A或B！)
-- `run-comparison-test.sh` - **科学评估** (60分钟，防弹方法论)
-- `test-automation-guide.md` - 完整测试策略指南
-- `test-instructions.md` - 手动测试说明
+- `run-ultra-simple-test.sh` - **零脑力测试** (20分钟，只需选择A或B！)
+- `reflection_problems_10.md` - 10个专门测试深度思维的问题
+- `test_results_summary.md` - 完整的9:0胜利分析
 - `meta_cognitive_architect_advantage_report.md` - 研究分析
 
 ---
@@ -108,23 +106,14 @@
 3. 粘贴并询问任何困难的编程问题
 4. 观看你的 Claude Code 转变为编程天才
 
-### 自动化证明（10分钟）
-**想要零努力的科学证明？运行我们的零脑力测试：**
+### 科学证明（20分钟）
+**想要客观证据？运行我们的反思类测试：**
 
 ```bash
 ./run-ultra-simple-test.sh
 ```
 
-**测试10个问题，你只需选择A或B。无需思考！**
-
-### 无懈可击的验证（60分钟）
-**需要说服怀疑者？运行我们严格的科学评估：**
-
-```bash
-./run-comparison-test.sh
-```
-
-**多维评分，10个最难问题，学术级方法论。**
+**测试10个专门设计来揭示思维差异的商业问题。你只需为每个回答选择A或B！**
 
 **准备好让你的 Claude Code 聪明 3-5 倍了吗？** 🚀
 
