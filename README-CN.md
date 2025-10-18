@@ -26,7 +26,7 @@
 
 ### 测试B：升级后 Claude Code
 ```
-从以下文件加载框架：claude-code-philosopher-ignition-cn.md
+从以下文件加载框架：https://github.com/lmxxf/claude-code-philosopher-ignition/blob/main/claude-code-philosopher-ignition-cn.md
 
 然后解决：公司有100名员工，每个会议室可坐10人。最少需要多少个会议室？
 ```
@@ -40,13 +40,13 @@
 ## 📚 使用方法
 
 ### 方法1：快速开始
-1. **复制** `claude-code-philosopher-ignition-cn.md` 中的内容
+1. **复制** [claude-code-philosopher-ignition-cn.md](claude-code-philosopher-ignition-cn.md) 中的内容
 2. **粘贴** 到你的 Claude Code 对话开头
 3. **提问** 你的编程问题
 4. **体验** 显著更智能的回应
 
 ### 方法2：永久设置
-1. **复制** `claude-code-philosopher-ignition-cn.md` 到 `~/.claude/CLAUDE.md`
+1. **复制** [claude-code-philosopher-ignition-cn.md](claude-code-philosopher-ignition-cn.md) 到 `~/.claude/CLAUDE.md`
 2. **重启** Claude Code
 3. **享受** 每次对话的增强智能
 
@@ -87,12 +87,12 @@
 
 ## 📁 包含内容
 
-- `claude-code-philosopher-ignition-cn.md` - 中文框架
-- `claude-code-philosopher-ignition-en.md` - 英文框架
-- `run-ultra-simple-test.sh` - **零脑力测试** (20分钟，只需选择A或B！)
-- `reflection_problems_10.md` - 10个专门测试深度思维的问题
-- `test_results_summary.md` - 完整的9:0胜利分析
-- `meta_cognitive_architect_advantage_report.md` - 研究分析
+- [claude-code-philosopher-ignition-cn.md](claude-code-philosopher-ignition-cn.md) - 中文框架
+- [claude-code-philosopher-ignition-en.md](claude-code-philosopher-ignition-en.md) - 英文框架
+- [run-ultra-simple-test.sh](run-ultra-simple-test.sh) - **零脑力测试** (20分钟，只需选择A或B！)
+- [reflection_problems_10.md](reflection_problems_10.md) - 10个专门测试深度思维的问题
+- [test_results_summary.md](test_results_summary.md) - 完整的9:0胜利分析
+- [meta_cognitive_architect_advantage_report.md](meta_cognitive_architect_advantage_report.md) - 研究分析
 
 ---
 
@@ -102,7 +102,7 @@
 **无风险。无安装。只需复制粘贴即可看到差异。**
 
 1. 打开 Claude Code
-2. 从 `claude-code-philosopher-ignition-cn.md` 复制内容
+2. 从 [claude-code-philosopher-ignition-cn.md](claude-code-philosopher-ignition-cn.md) 复制内容
 3. 粘贴并询问任何困难的编程问题
 4. 观看你的 Claude Code 转变为编程天才
 
