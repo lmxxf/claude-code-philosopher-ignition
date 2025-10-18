@@ -1,97 +1,124 @@
 #!/bin/bash
 
-# Ultra-Simple Test - Maximum Simplification
-# 超简化测试 - 最大化简化
+# Ultra-Simple Test - No File Operations
+# 超简化测试 - 无文件操作
 
 echo "🚀 ULTRA-SIMPLE Test"
 echo "==================="
 echo ""
-echo "💡 We'll create test files for you to copy-paste"
-echo "📁 Results go in: test/origin/ and test/ignition/"
+echo "⚡ ZERO file operations - just copy what you see!"
+echo "⏱️ 3 problems, ~8 minutes total"
 echo ""
 
-# Create test directories
-mkdir -p test/origin test/ignition
+# Create test directories for logging
+mkdir -p test
 
 # Simple test problems
 declare -a PROBLEMS=(
-    "Egg Drop: k=2 eggs, n=6 floors, find minimum moves"
-    "Regex: Match 'a*' pattern with 'aa' string"
-    "Window: Find smallest window in 'ADOBECODEBANC' containing 'ABC'"
+    "Solve: Find minimum moves for k=2 eggs, n=6 floors"
+    "Solve: Match regex pattern 'a*' with string 'aa'"
+    "Solve: Find smallest window in 'ADOBECODEBANC' containing 'ABC'"
 )
 
-# Create all prompts upfront
-echo "📝 Creating test prompts..."
+declare -a ENHANCED_PROBLEMS=(
+    "Use first principles thinking and analyze trade-offs. Solve: Find minimum moves for k=2 eggs, n=6 floors"
+    "Use first principles thinking and analyze trade-offs. Solve: Match regex pattern 'a*' with string 'aa'"
+    "Use first principles thinking and analyze trade-offs. Solve: Find smallest window in 'ADOBECODEBANC' containing 'ABC'"
+)
 
-for i in {1..3}; do
-    problem="${PROBLEMS[$((i-1))]}"
+declare -a PROBLEM_NAMES=(
+    "Egg Drop"
+    "Regex Match"
+    "Window Substring"
+)
 
-    # Default prompt
-    echo "Solve: $problem" > "test/origin/problem${i}_prompt.txt"
+run_test() {
+    local num=$1
+    local name=$2
+    local default_prompt=$3
+    local enhanced_prompt=$4
 
-    # Enhanced prompt
-    echo "Use first principles thinking and analyze trade-offs. Solve: $problem" > "test/ignition/problem${i}_prompt.txt"
-done
-
-echo ""
-echo "✅ All prompts created!"
-echo ""
-echo "🎯 Now just follow these steps:"
-echo ""
-
-for i in {1..3}; do
-    echo "PROBLEM $i:"
-    echo "  1. Copy: test/origin/problem${i}_prompt.txt → Paste to Claude Code"
-    echo "  2. Copy: test/ignition/problem${i}_prompt.txt → Paste to NEW Claude Code"
-    echo "  3. Save responses to: test/origin/problem${i}_response.txt"
-    echo "                        test/ignition/problem${i}_response.txt"
     echo ""
-done
+    echo "🎯 TEST $num/3: $name"
+    echo "====================="
+    echo ""
 
-echo "🤔 After all tests, answer these simple questions:"
-echo ""
+    echo "🔵 STEP 1: Copy this to Claude Code:"
+    echo ""
+    echo "────────────────────────────────────"
+    echo "$default_prompt"
+    echo "────────────────────────────────────"
+    echo ""
 
-# Run simple comparison
-for i in {1..3}; do
-    problem_name=$(echo "${PROBLEMS[$((i-1))]}" | cut -d: -f1)
+    read -p "Got the response? Press ENTER..."
 
-    echo "Problem $i ($problem_name):"
-    echo "Which response was better? (A=origin, B=ignition)"
+    echo ""
+    echo "🟢 STEP 2: Copy this to NEW Claude Code:"
+    echo ""
+    echo "────────────────────────────────────"
+    echo "$enhanced_prompt"
+    echo "────────────────────────────────────"
+    echo ""
+
+    read -p "Got the response? Press ENTER..."
+
+    echo ""
+    echo "🤔 Which response was better?"
+    echo "   A) First response (default)"
+    echo "   B) Second response (enhanced)"
+    echo ""
 
     while true; do
-        read -p "A or B? " choice
+        read -p "Choose A or B: " choice
         case $choice in
             [Aa]* )
-                echo "origin" >> test/votes.txt
+                echo "default" >> test/votes.txt
+                echo "   ✅ Recorded: Default wins"
                 break;;
             [Bb]* )
-                echo "ignition" >> test/votes.txt
+                echo "enhanced" >> test/votes.txt
+                echo "   ✅ Recorded: Enhanced wins"
                 break;;
-            * ) echo "Just type A or B...";;
+            * ) echo "   Just type A or B...";;
         esac
     done
+}
+
+# Initialize
+echo "" > test/votes.txt
+
+echo "Starting test..."
+echo ""
+
+# Run all tests
+for i in {0..2}; do
+    run_test $((i+1)) "${PROBLEM_NAMES[i]}" "${PROBLEMS[i]}" "${ENHANCED_PROBLEMS[i]}"
 done
 
-# Quick results
+# Calculate results
 echo ""
-echo "📊 RESULTS:"
-echo "==========="
-
-origin_wins=$(grep -c "origin" test/votes.txt 2>/dev/null || echo "0")
-ignition_wins=$(grep -c "ignition" test/votes.txt 2>/dev/null || echo "0")
-
-echo "Origin (Default): $origin_wins wins"
-echo "Ignition (Enhanced): $ignition_wins wins"
+echo "🎉 ALL TESTS COMPLETE!"
+echo "====================="
 echo ""
 
-if [ "$ignition_wins" -gt "$origin_wins" ]; then
-    echo "🏆 WINNER: Meta-Cognitive Architect (Ignition)!"
-elif [ "$origin_wins" -gt "$ignition_wins" ]; then
-    echo "🤔 Origin won - unexpected result"
+default_wins=$(grep -c "default" test/votes.txt 2>/dev/null || echo "0")
+enhanced_wins=$(grep -c "enhanced" test/votes.txt 2>/dev/null || echo "0")
+
+echo "📊 FINAL RESULTS:"
+echo ""
+echo "   Default Claude Code: $default_wins wins"
+echo "   Enhanced Framework:  $enhanced_wins wins"
+echo ""
+
+if [ "$enhanced_wins" -gt "$default_wins" ]; then
+    echo "🏆 WINNER: Meta-Cognitive Architect Framework!"
+    echo "✅ Enhanced version shows clear superiority"
+elif [ "$default_wins" -gt "$enhanced_wins" ]; then
+    echo "🤔 Default won - this is unexpected"
+    echo "   Maybe try the more rigorous scientific test?"
 else
-    echo "🤝 Tie"
+    echo "🤝 TIE - Both approaches performed equally"
 fi
 
 echo ""
-echo "📁 All files saved in test/ folder"
-echo "🎯 Test complete!"
+echo "🎯 Test completed! Results saved in test/votes.txt"
