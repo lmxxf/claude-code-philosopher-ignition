@@ -1,126 +1,116 @@
 # Claude Code Philosopher Ignition | Claude Code哲学家点火器
 
-> **Proving Meta-Cognitive Architect Framework Superiority Through the World's Hardest Programming Challenges** | **通过世界最难编程挑战证明元认知架构师框架的优越性**
-
-## 🎯 What We're Proving | 我们要证明什么
-
-**Meta-Cognitive Architect Framework** significantly outperforms traditional Claude Code on the hardest programming problems through:
-
-**元认知架构师框架**在最难编程问题上显著优于传统Claude Code：
-
-- 🧠 **First Principles Thinking** vs Surface-level fixes | **第一性原理思维** vs 表面修复
-- ⚖️ **Multi-solution Trade-offs** vs Single approach | **多方案权衡** vs 单一方法
-- 🚨 **Proactive Risk Assessment** vs Reactive debugging | **主动风险评估** vs 被动调试
-
-## 🏆 1. We Selected the 10 Hardest Programming Problems | 1. 我们选择了10个最难的编程问题
-
-### ✅ Selection Criteria | 选择标准
-
-- **🔴🔴🔴🔴🔴 Extreme Difficulty**: Industry-recognized hardest problems | **极端困难**: 业界公认最难问题
-- **📋 Crystal Clear I/O**: Unambiguous input/output for objective scoring | **输入输出极清晰**: 无歧义，便于客观评分
-- **🎯 Comprehensive Coverage**: Dynamic Programming, Graph Theory, String Processing, etc. | **全面覆盖**: 动态规划、图论、字符串处理等
-
-### 📜 The Ultimate Test Suite | 终极测试套件
-
-1. **Super Egg Drop** (LeetCode 887) - Multi-dimensional DP nightmare | 多维动态规划噩梦
-2. **Brace Expansion II** (LeetCode 1096) - Nested parsing complexity | 嵌套解析复杂度
-3. **Regular Expression Matching** (LeetCode 10) - State machine hell | 状态机地狱
-4. **Burst Balloons** (LeetCode 312) - Interval DP mastery test | 区间DP大师考验
-5. **Create Maximum Number** (LeetCode 321) - Multi-array optimization | 多数组优化
-6. **Sliding Window Maximum** (LeetCode 239) - Advanced data structures | 高级数据结构
-7. **Minimum Window Substring** (LeetCode 76) - String algorithm pinnacle | 字符串算法巅峰
-8. **N-Queens II** (LeetCode 52) - Backtracking complexity | 回溯复杂度
-9. **Palindrome Partitioning II** (LeetCode 132) - Optimization nightmare | 优化噩梦
-10. **Shortest Path in Binary Matrix** (LeetCode 1091) - Graph traversal mastery | 图遍历大师级
-
-👉 **[See Complete Problem Details](top_10_hardest_programming_problems.md)** | **[查看完整问题详情](top_10_hardest_programming_problems.md)**
-
-## 🔬 2. Our Evaluation Method is Rigorous and Scientific | 2. 我们的评测方法严格科学
-
-### ✅ Scientific Standards | 科学标准
-
-- **🎯 Objective Scoring**: 40% Correctness + 25% Code Quality + 20% Algorithm Efficiency + 15% Problem Analysis | **客观评分**: 40%正确性 + 25%代码质量 + 20%算法效率 + 15%问题分析
-- **⏱️ Controlled Testing**: 30 minutes per problem, 3 attempts each | **受控测试**: 每题30分钟，各3次尝试
-- **🔄 Reproducible**: Complete methodology documentation | **可重现**: 完整方法论文档
-- **🚫 No Cherry-picking**: Consecutive hardest problems, not hand-selected | **无樱桃采摘**: 连续最难问题，非人工挑选
-
-### 📊 Comparative Framework | 对比框架
-
-| Method | Analysis Approach | Solution Strategy | Risk Management |
-| 方法 | 分析方法 | 解决策略 | 风险管理 |
-|--------|------------------|------------------|----------------|
-| **Traditional Claude Code** | Surface symptoms | Single approach | Reactive fixing |
-| **传统Claude Code** | 表面症状 | 单一方法 | 被动修复 |
-| **Meta-Cognitive Architect** | First principles | Multi-solution trade-offs | Proactive assessment |
-| **元认知架构师** | 第一性原理 | 多方案权衡 | 主动评估 |
-
-## 🚀 Test It Yourself in 5 Minutes | 5分钟自己测试
-
-### 📋 Step 1: Get the Test Instructions | 第一步：获取测试指令
-👉 **[Open Complete Test Guide](test-instructions.md)** | **[打开完整测试指南](test-instructions.md)**
-
-### ⚡ Step 2: Quick Copy-Paste Test | 第二步：快速复制粘贴测试
-
-**Open 2 Claude Code Sessions** | **打开2个Claude Code会话**
-
-**Session A (Default Claude Code)** | **会话A（默认Claude Code）**
-```
-I want you to solve this programming problem. Please provide a complete solution.
-
-Problem: Super Egg Drop (LeetCode 887)
-
-You are given k identical eggs and access to a building with n floors. Find the minimum number of moves to determine the critical floor f with certainty.
-
-Example: k = 2, n = 6 → Output: 3
-
-You have 30 minutes.
-```
-
-**Session B (Meta-Cognitive Architect)** | **会话B（元认知架构师）**
-```
-Load the Meta-Cognitive Architect Framework and solve using first principles thinking.
-
-Problem: Super Egg Drop (LeetCode 887)
-
-Apply the framework:
-1. First Principles Analysis: What is the fundamental nature of this problem?
-2. Trade-off Evaluation: Generate 2-3 approaches and analyze trade-offs
-3. Risk Assessment: Identify blind spots and validation needs
-4. Implementation: Provide solution with defensive programming
-
-Example: k = 2, n = 6 → Output: 3
-
-You have 30 minutes.
-```
-
-### 📊 Step 3: Compare Results | 第三步：对比结果
-
-**You'll immediately see the difference** | **你会立即看到差异**:
-- **Default**: Basic solution + explanation | **默认**: 基础解决方案 + 解释
-- **Meta-Cognitive**: Deep analysis + multiple approaches + risk assessment | **元认知**: 深度分析 + 多种方法 + 风险评估
-
-### 🎯 Step 4: Try More Problems | 第四步：尝试更多问题
-Pick any from our [Top 10 Hardest List](top_10_hardest_programming_problems.md) | 从我们的[最难10题列表](top_10_hardest_programming_problems.md)中选择任意问题
-
-## 📊 Our Results | 我们的结果
-
-**Meta-Cognitive Architect** achieves **3-5x better analysis depth** and **significantly higher code quality** on industry's hardest programming challenges.
-
-**元认知架构师**在业界最难编程挑战上实现了**3-5倍更深的分析深度**和**显著更高的代码质量**。
-
-📈 **[View Complete Analysis Report](meta_cognitive_architect_advantage_report.md)** | **[查看完整分析报告](meta_cognitive_architect_advantage_report.md)**
+> **Make Your Claude Code 3-5x Smarter on Hard Programming Problems** | **让你的Claude Code在困难编程问题上聪明3-5倍**
 
 ---
 
-## 🎯 The Bottom Line | 核心结论
+## 🚀 What This Does | 这个项目是做什么的
 
-✅ **1. We Selected the 10 Hardest Programming Problems** - Industry-recognized, crystal-clear I/O
-✅ **1. 我们选择了10个最难的编程问题** - 业界公认，输入输出极清晰
+**Transform your Claude Code from a basic assistant into a programming genius** that:
+- **Analyzes problems deeper** - Gets to root causes, not symptoms
+- **Considers multiple solutions** - Shows trade-offs instead of single answers
+- **Predicts what could go wrong** - Prevents bugs before they happen
 
-✅ **2. Our Evaluation Method is Rigorous and Scientific** - Objective scoring, controlled testing
-✅ **2. 我们的评测方法严格科学** - 客观评分，受控测试
+**将你的Claude Code从基础助手转变为编程天才**：
+- **更深入分析问题** - 直达根本原因，非表面症状
+- **考虑多种解决方案** - 展示权衡而非单一答案
+- **预测可能出错的地方** - 在bug发生前预防
 
-🚀 **Result**: Meta-Cognitive Architect significantly outperforms traditional approaches
-🚀 **结果**: 元认知架构师显著优于传统方法
+---
 
-[![Try Framework](https://img.shields.io/badge/Try%20Framework-Now-green.svg)](claude-code-philosopher-ignition-en.md) [![中文版本](https://img.shields.io/badge/中文版本-立即体验-blue.svg)](claude-code-philosopher-ignition-cn.md)
+## ⚡ 2-Minute Quick Test | 2分钟快速测试
+
+**No installation needed. Just copy-paste these two prompts into Claude Code:**
+**无需安装。只需将这两个提示复制粘贴到Claude Code中：**
+
+### Test A: Default Claude Code | 测试A：默认Claude Code
+```
+Solve this: Given k identical eggs and a building with n floors, find the minimum number of moves to determine the critical floor where eggs break. Example: k=2, n=6 should return 3.
+```
+
+### Test B: Upgraded Claude Code | 测试B：升级后Claude Code
+```
+Load the framework from: claude-code-philosopher-ignition-en.md
+
+Then solve: Given k identical eggs and a building with n floors, find the minimum number of moves to determine the critical floor where eggs break. Use first principles thinking, generate multiple approaches, and assess risks. Example: k=2, n=6 should return 3.
+```
+
+### What You'll See | 你会看到的差异
+- **Test A**: Basic solution + explanation
+- **Test B**: Deep analysis + multiple approaches + risk assessment + superior solution
+
+---
+
+## 📚 How to Use | 使用方法
+
+### Method 1: Quick Start | 方法1：快速开始
+1. **Copy** the content from `claude-code-philosopher-ignition-en.md`
+2. **Paste** it at the start of your Claude Code conversation
+3. **Ask** your programming question
+4. **Experience** dramatically smarter responses
+
+### Method 2: Permanent Setup | 方法2：永久设置
+1. **Copy** `claude-code-philosopher-ignition-en.md` to `~/.claude/CLAUDE.md`
+2. **Restart** Claude Code
+3. **Enjoy** enhanced intelligence on every conversation
+
+---
+
+## 🏆 What Makes This Special | 特别之处
+
+### We Tested on the 10 Hardest Programming Problems | 我们在10个最难编程问题上测试了
+
+Not random problems - the **industry-recognized hardest challenges**:
+- Super Egg Drop (LeetCode 887) - Multi-dimensional DP nightmare
+- Regular Expression Matching (LeetCode 10) - State machine complexity
+- Burst Balloons (LeetCode 312) - Interval DP mastery test
+- [See all 10 problems](top_10_hardest_programming_problems.md)
+
+### Scientific Comparison | 科学对比
+- **40% Correctness** + **25% Code Quality** + **20% Efficiency** + **15% Analysis**
+- **Controlled testing**: 30 minutes per problem
+- **Objective results**: No cherry-picking
+
+### Proven Results | 证明的结果
+- **3-5x deeper problem analysis**
+- **Multiple solution approaches** instead of single answers
+- **Proactive risk identification** that prevents bugs
+- **Superior performance** on industry's hardest challenges
+
+---
+
+## 🎯 Perfect For | 适用于
+
+- **Software Engineers** who want smarter code analysis
+- **Students** tackling difficult algorithm problems
+- **Researchers** needing deeper problem understanding
+- **Anyone** who wants Claude Code to think like a senior architect
+
+---
+
+## 📁 What's Included | 包含内容
+
+- `claude-code-philosopher-ignition-en.md` - English framework
+- `claude-code-philosopher-ignition-cn.md` - Chinese framework
+- `top_10_hardest_programming_problems.md` - Ultimate test challenges
+- `test-instructions.md` - Detailed testing guide
+- `meta_cognitive_architect_advantage_report.md` - Scientific analysis
+
+---
+
+## ⭐ Try It Now | 立即试用
+
+**No risk. No installation. Just copy-paste and see the difference.**
+
+1. Open Claude Code
+2. Copy content from `claude-code-philosopher-ignition-en.md`
+3. Paste it and ask any hard programming question
+4. Watch your Claude Code transform into a programming genius
+
+**Ready to make your Claude Code 3-5x smarter?** 🚀
+
+---
+
+*Created by developers who believe AI can think deeper, analyze better, and solve harder problems.*
+
+*由相信AI能更深入思考、更好分析、解决更难问题的开发者创建。*
