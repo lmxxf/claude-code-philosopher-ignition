@@ -90,7 +90,7 @@ Not random problems - the **industry-recognized hardest challenges**:
 - [claude-code-philosopher-ignition-en.md](claude-code-philosopher-ignition-en.md) - English framework
 - [claude-code-philosopher-ignition-cn.md](claude-code-philosopher-ignition-cn.md) - Chinese framework
 - [run-ultra-simple-test.sh](run-ultra-simple-test.sh) - **Zero-effort test** (20 min, just choose A or B!)
-- [reflection_problems_10.md](reflection_problems_10.md) - 10 problems designed to test deep thinking
+- [reflection_problems_10_en.md](reflection_problems_10_en.md) - 10 problems designed to test deep thinking
 - [test_results_summary.md](test_results_summary.md) - Complete 9:0 victory analysis
 - [meta_cognitive_architect_advantage_report.md](meta_cognitive_architect_advantage_report.md) - Research analysis
 
