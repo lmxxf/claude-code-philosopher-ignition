@@ -9,6 +9,17 @@ echo ""
 echo "⚡ ZERO file operations - just copy what you see!"
 echo "⏱️ 3 problems, ~8 minutes total"
 echo ""
+echo "📋 SETUP: Open 2 Claude Code windows first:"
+echo ""
+echo "   Window A: Default Claude Code (do nothing)"
+echo "   Window B: Enhanced Claude Code (load framework first)"
+echo ""
+echo "For Window B, first paste this framework:"
+echo "────────────────────────────────────────────"
+echo "Load the Meta-Cognitive Architect Framework from claude-code-philosopher-ignition-en.md"
+echo "────────────────────────────────────────────"
+echo ""
+read -p "Ready? Both windows open and framework loaded in Window B? Press ENTER..."
 
 # Create test directories for logging
 mkdir -p test
@@ -43,7 +54,7 @@ run_test() {
     echo "====================="
     echo ""
 
-    echo "🔵 STEP 1: Copy this to Claude Code:"
+    echo "🔵 STEP 1: Copy this to Window A (Default Claude Code):"
     echo ""
     echo "────────────────────────────────────"
     echo "$default_prompt"
@@ -53,10 +64,10 @@ run_test() {
     read -p "Got the response? Press ENTER..."
 
     echo ""
-    echo "🟢 STEP 2: Copy this to NEW Claude Code:"
+    echo "🟢 STEP 2: Copy this to Window B (Enhanced Claude Code):"
     echo ""
     echo "────────────────────────────────────"
-    echo "$enhanced_prompt"
+    echo "$default_prompt"
     echo "────────────────────────────────────"
     echo ""
 
@@ -64,8 +75,8 @@ run_test() {
 
     echo ""
     echo "🤔 Which response was better?"
-    echo "   A) First response (default)"
-    echo "   B) Second response (enhanced)"
+    echo "   A) Window A response (default Claude Code)"
+    echo "   B) Window B response (enhanced Claude Code)"
     echo ""
 
     while true; do
