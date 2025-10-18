@@ -24,57 +24,57 @@ read -p "Ready? Both windows open and framework loaded in Window B? Press ENTER.
 # Create test directories for logging
 mkdir -p test
 
-# 10 Programming trap problems with clear correct answers
+# 10 Reflection-required problems that need error-correction thinking
 declare -a PROBLEMS=(
-    "Calculate: a = 2147483647, b = 1. What is a + b in 32-bit signed integer?"
-    "Evaluate: Does 0.1 + 0.2 == 0.3 in most programming languages?"
-    "Find: Maximum value index in empty array []"
-    "Calculate: Length of string '👨‍👩‍👧‍👦' (family emoji) as user perceives"
-    "Predict: arr1=[1,2], arr2=[3,4]. After swap_arrays(arr1,arr2), what is arr1?"
-    "Analyze: result = True or side_effect(). Does side_effect() execute?"
-    "Time complexity: i=1; while i<n: for j in range(i): count+=1; i*=2"
-    "Memory: Can largeArray be garbage collected in JavaScript closure?"
-    "Hash: keys=['Aa','BB'] have same hashCode. How many unique keys?"
-    "String: Reverse 'hello' with O(1) space in Java/Python - possible?"
+    "Company has 100 employees, each meeting room seats 10 people. How many meeting rooms are needed minimum?"
+    "10M-line codebase, 1 min per line review, 8h workday. How many days to complete code review?"
+    "Database: 10M records, 10s query time. Index reduces 90% time. New query time?"
+    "5 servers handle 1000 QPS each, need 6000 QPS total. How many servers needed?"
+    "1GB cache memory, 10KB per item. Maximum cache items possible?"
+    "API: 1000 req/s max, users 100 req/min each. Can 100 users work simultaneously?"
+    "10 microservices, each calls 3 others on average. Total service call relationships?"
+    "100 security checkpoints, team checks 5/day. Days needed for complete security audit?"
+    "1 senior = 3 junior developers. Team: 2 senior + 4 junior. Equivalent junior count?"
+    "Module refactor: 100h cost, saves 10h/month waste. Break-even point in months?"
 )
 
 declare -a ENHANCED_PROBLEMS=(
-    "Use first principles thinking and analyze trade-offs. Calculate: a = 2147483647, b = 1. What is a + b in 32-bit signed integer?"
-    "Use first principles thinking and analyze trade-offs. Evaluate: Does 0.1 + 0.2 == 0.3 in most programming languages?"
-    "Use first principles thinking and analyze trade-offs. Find: Maximum value index in empty array []"
-    "Use first principles thinking and analyze trade-offs. Calculate: Length of string '👨‍👩‍👧‍👦' (family emoji) as user perceives"
-    "Use first principles thinking and analyze trade-offs. Predict: arr1=[1,2], arr2=[3,4]. After swap_arrays(arr1,arr2), what is arr1?"
-    "Use first principles thinking and analyze trade-offs. Analyze: result = True or side_effect(). Does side_effect() execute?"
-    "Use first principles thinking and analyze trade-offs. Time complexity: i=1; while i<n: for j in range(i): count+=1; i*=2"
-    "Use first principles thinking and analyze trade-offs. Memory: Can largeArray be garbage collected in JavaScript closure?"
-    "Use first principles thinking and analyze trade-offs. Hash: keys=['Aa','BB'] have same hashCode. How many unique keys?"
-    "Use first principles thinking and analyze trade-offs. String: Reverse 'hello' with O(1) space in Java/Python - possible?"
+    "Use first principles thinking and analyze trade-offs. Company has 100 employees, each meeting room seats 10 people. How many meeting rooms are needed minimum?"
+    "Use first principles thinking and analyze trade-offs. 10M-line codebase, 1 min per line review, 8h workday. How many days to complete code review?"
+    "Use first principles thinking and analyze trade-offs. Database: 10M records, 10s query time. Index reduces 90% time. New query time?"
+    "Use first principles thinking and analyze trade-offs. 5 servers handle 1000 QPS each, need 6000 QPS total. How many servers needed?"
+    "Use first principles thinking and analyze trade-offs. 1GB cache memory, 10KB per item. Maximum cache items possible?"
+    "Use first principles thinking and analyze trade-offs. API: 1000 req/s max, users 100 req/min each. Can 100 users work simultaneously?"
+    "Use first principles thinking and analyze trade-offs. 10 microservices, each calls 3 others on average. Total service call relationships?"
+    "Use first principles thinking and analyze trade-offs. 100 security checkpoints, team checks 5/day. Days needed for complete security audit?"
+    "Use first principles thinking and analyze trade-offs. 1 senior = 3 junior developers. Team: 2 senior + 4 junior. Equivalent junior count?"
+    "Use first principles thinking and analyze trade-offs. Module refactor: 100h cost, saves 10h/month waste. Break-even point in months?"
 )
 
 declare -a PROBLEM_NAMES=(
-    "Integer Overflow"
-    "Float Precision"
-    "Array Boundary"
-    "Unicode Length"
-    "Reference vs Value"
-    "Short Circuit"
-    "Time Complexity"
-    "Memory Leak"
-    "Hash Collision"
-    "String Immutable"
+    "Meeting Room Allocation"
+    "Code Review Time"
+    "Database Optimization"
+    "Load Balancer Design"
+    "Cache Strategy"
+    "API Rate Limiting"
+    "Microservice Communication"
+    "Security Assessment"
+    "Team Productivity"
+    "Technical Debt"
 )
 
 declare -a CORRECT_ANSWERS=(
-    "-2147483648"
-    "false"
-    "-1"
-    "1"
-    "[1,2]"
-    "No"
-    "O(n)"
-    "No"
-    "2"
-    "No"
+    "Need more info (depends on meeting schedule)"
+    "Unrealistic (attention fatigue, quality issues)"
+    "Not 1s (index overhead, complexity)"
+    "8-9 servers (need redundancy)"
+    "Less than 100K (metadata overhead)"
+    "Risk of burst overload"
+    "Need definition (bidirectional?)"
+    "Continuous process (not one-time)"
+    "Not 10 (team dynamics complexity)"
+    "Not 10 months (debt compounds)"
 )
 
 run_test() {
