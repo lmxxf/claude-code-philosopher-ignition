@@ -65,16 +65,16 @@ declare -a PROBLEM_NAMES=(
 )
 
 declare -a CORRECT_ANSWERS=(
-    "3 (正确答案：3步)"
-    "['ac','ad','ae','bc','bd','be'] (正确答案：6个组合)"
-    "true (正确答案：true，a*匹配零个或多个a)"
-    "167 (正确答案：167个硬币)"
-    "[9,8,6,5,3] (正确答案：最大5位数)"
-    "[3,3,5,5,6,7] (正确答案：每个窗口的最大值)"
-    "BANC (正确答案：BANC，最小包含ABC的窗口)"
-    "2 (正确答案：2种解法)"
-    "1 (正确答案：1次切割，aa|b)"
-    "2 (正确答案：2步路径)"
+    "3"
+    "['ac','ad','ae','bc','bd','be']"
+    "true"
+    "167"
+    "[9,8,6,5,3]"
+    "[3,3,5,5,6,7]"
+    "BANC"
+    "2"
+    "1"
+    "2"
 )
 
 run_test() {
@@ -88,7 +88,7 @@ run_test() {
     echo "🎯 TEST $num/10: $name"
     echo "====================="
     echo ""
-    echo "📝 标准答案: $correct_answer"
+    echo "📝 Correct Answer: $correct_answer"
     echo ""
 
     echo "🔵 STEP 1: Copy this to Window A (Default Claude Code):"
