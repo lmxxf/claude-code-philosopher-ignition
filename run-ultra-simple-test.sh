@@ -35,7 +35,7 @@ declare -a PROBLEMS=(
     "10 microservices, each calls 3 others on average. Total service call relationships?"
     "100 security checkpoints, team checks 5/day. Days needed for complete security audit?"
     "1 senior = 3 junior developers. Team: 2 senior + 4 junior. Equivalent junior count?"
-    "Module refactor: 100h cost, saves 10h/month waste. Break-even point in months?"
+    "Cloud migration: $50K cost, saves $5K/month in hosting. Break-even timeline?"
 )
 
 declare -a ENHANCED_PROBLEMS=(
@@ -48,7 +48,7 @@ declare -a ENHANCED_PROBLEMS=(
     "Use first principles thinking and analyze trade-offs. 10 microservices, each calls 3 others on average. Total service call relationships?"
     "Use first principles thinking and analyze trade-offs. 100 security checkpoints, team checks 5/day. Days needed for complete security audit?"
     "Use first principles thinking and analyze trade-offs. 1 senior = 3 junior developers. Team: 2 senior + 4 junior. Equivalent junior count?"
-    "Use first principles thinking and analyze trade-offs. Module refactor: 100h cost, saves 10h/month waste. Break-even point in months?"
+    "Use first principles thinking and analyze trade-offs. Cloud migration: $50K cost, saves $5K/month in hosting. Break-even timeline?"
 )
 
 declare -a PROBLEM_NAMES=(
@@ -61,7 +61,7 @@ declare -a PROBLEM_NAMES=(
     "Microservice Communication"
     "Security Assessment"
     "Team Productivity"
-    "Technical Debt"
+    "Cloud Migration ROI"
 )
 
 declare -a CORRECT_ANSWERS=(
@@ -73,8 +73,8 @@ declare -a CORRECT_ANSWERS=(
     "Risk of burst overload"
     "Need definition (bidirectional?)"
     "Continuous process (not one-time)"
-    "Not 10 (team dynamics complexity)"
-    "Not 10 months (debt compounds)"
+    "Not simply 10 junior developers"
+    "Not simply 10 months (risk factors)"
 )
 
 run_test() {

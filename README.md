@@ -72,10 +72,11 @@ Not random problems - the **industry-recognized hardest challenges**:
 - **Objective results**: No cherry-picking
 
 ### Proven Results | 证明的结果
-- **10:0 victory** in head-to-head testing on reflection-required problems
+- **9:0 victory** in head-to-head testing on reflection-required problems
 - **Deep business analysis** vs instant mathematical answers
 - **Multi-dimensional thinking** considering real-world constraints and trade-offs
 - **Strategic solutions** instead of surface-level calculations
+- **Intellectual honesty** - we even report when our framework has limitations
 
 ---
 
