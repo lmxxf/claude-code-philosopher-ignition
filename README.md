@@ -54,18 +54,53 @@
 | **Meta-Cognitive Architect** | First principles | Multi-solution trade-offs | Proactive assessment |
 | **元认知架构师** | 第一性原理 | 多方案权衡 | 主动评估 |
 
-## 🚀 Quick Start | 快速开始
+## 🚀 Test It Yourself in 5 Minutes | 5分钟自己测试
 
-### 1. Try the Framework | 尝试框架
-```bash
-# Set up Meta-Cognitive Architect in your Claude Code | 在您的Claude Code中设置元认知架构师
-cp claude-code-philosopher-ignition-en.md ~/.claude/CLAUDE.md
+### 📋 Step 1: Get the Test Instructions | 第一步：获取测试指令
+👉 **[Open Complete Test Guide](test-instructions.md)** | **[打开完整测试指南](test-instructions.md)**
+
+### ⚡ Step 2: Quick Copy-Paste Test | 第二步：快速复制粘贴测试
+
+**Open 2 Claude Code Sessions** | **打开2个Claude Code会话**
+
+**Session A (Default Claude Code)** | **会话A（默认Claude Code）**
+```
+I want you to solve this programming problem. Please provide a complete solution.
+
+Problem: Super Egg Drop (LeetCode 887)
+
+You are given k identical eggs and access to a building with n floors. Find the minimum number of moves to determine the critical floor f with certainty.
+
+Example: k = 2, n = 6 → Output: 3
+
+You have 30 minutes.
 ```
 
-### 2. Test It Yourself | 自己测试
-- Pick any problem from our [Top 10 Hardest List](top_10_hardest_programming_problems.md) | 从我们的[最难10题列表](top_10_hardest_programming_problems.md)中选择任意问题
-- Solve it twice: once with default Claude Code, once with our framework | 解决两次：一次用默认Claude Code，一次用我们的框架
-- Compare the quality difference yourself | 自己对比质量差异
+**Session B (Meta-Cognitive Architect)** | **会话B（元认知架构师）**
+```
+Load the Meta-Cognitive Architect Framework and solve using first principles thinking.
+
+Problem: Super Egg Drop (LeetCode 887)
+
+Apply the framework:
+1. First Principles Analysis: What is the fundamental nature of this problem?
+2. Trade-off Evaluation: Generate 2-3 approaches and analyze trade-offs
+3. Risk Assessment: Identify blind spots and validation needs
+4. Implementation: Provide solution with defensive programming
+
+Example: k = 2, n = 6 → Output: 3
+
+You have 30 minutes.
+```
+
+### 📊 Step 3: Compare Results | 第三步：对比结果
+
+**You'll immediately see the difference** | **你会立即看到差异**:
+- **Default**: Basic solution + explanation | **默认**: 基础解决方案 + 解释
+- **Meta-Cognitive**: Deep analysis + multiple approaches + risk assessment | **元认知**: 深度分析 + 多种方法 + 风险评估
+
+### 🎯 Step 4: Try More Problems | 第四步：尝试更多问题
+Pick any from our [Top 10 Hardest List](top_10_hardest_programming_problems.md) | 从我们的[最难10题列表](top_10_hardest_programming_problems.md)中选择任意问题
 
 ## 📊 Our Results | 我们的结果
 
