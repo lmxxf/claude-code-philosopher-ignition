@@ -92,7 +92,6 @@
 - [run-ultra-simple-test.sh](run-ultra-simple-test.sh) - **零脑力测试** (20分钟，只需选择A或B！)
 - [reflection_problems_10.md](reflection_problems_10.md) - 10个专门测试深度思维的问题
 - [test_results_summary.md](test_results_summary.md) - 完整的9:0胜利分析
-- [meta_cognitive_architect_advantage_report.md](meta_cognitive_architect_advantage_report.md) - 研究分析
 
 ---
 
