@@ -1,6 +1,6 @@
 # Claude Code 哲学家点火器
 
-> **让你的 Claude Code 在困难编程问题上聪明 3-5 倍**
+> **让你的 Claude Code 在商业和技术问题上聪明 3-5 倍**
 
 [中文版 README](README-CN.md) | [English README](README.md)
 
@@ -8,10 +8,10 @@
 
 ## 🚀 这个项目是做什么的
 
-**将你的 Claude Code 从基础助手转变为编程天才**：
-- **更深入分析问题** - 直达根本原因，非表面症状
-- **考虑多种解决方案** - 展示权衡而非单一答案
-- **预测可能出错的地方** - 在 bug 发生前预防
+**将你的 Claude Code 从基础计算器转变为战略思维伙伴**：
+- **质疑假设** - 挑战问题前提而非瞬间计算
+- **考虑现实复杂性** - 分析商业背景，不只是数学
+- **战略思考** - 提供可行动的解决方案和风险评估
 
 ---
 
@@ -42,7 +42,7 @@
 ### 方法1：快速开始
 1. **复制** [claude-code-philosopher-ignition-cn.md](claude-code-philosopher-ignition-cn.md) 中的内容
 2. **粘贴** 到你的 Claude Code 对话开头
-3. **提问** 你的编程问题
+3. **提问** 你的商业或技术问题
 4. **体验** 显著更智能的回应
 
 ### 方法2：永久设置
@@ -79,7 +79,7 @@
 ## 🎯 适用于
 
 - **软件工程师** 想要更智能的代码分析
-- **学生** 处理困难算法问题
+- **商业分析师** 需要战略问题解决
 - **研究人员** 需要更深入的问题理解
 - **任何人** 想让 Claude Code 像高级架构师一样思考
 
@@ -90,7 +90,7 @@
 - [claude-code-philosopher-ignition-cn.md](claude-code-philosopher-ignition-cn.md) - 中文框架
 - [claude-code-philosopher-ignition-en.md](claude-code-philosopher-ignition-en.md) - 英文框架
 - [run-ultra-simple-test.sh](run-ultra-simple-test.sh) - **零脑力测试** (20分钟，只需选择A或B！)
-- [reflection_problems_10.md](reflection_problems_10.md) - 10个专门测试深度思维的问题
+- [reflection_problems_10.md](reflection_problems_10.md) - 10个专门测试反思vs瞬间计算的商业问题
 - [test_results_summary.md](test_results_summary.md) - 完整的9:0胜利分析
 
 ---
@@ -102,8 +102,8 @@
 
 1. 打开 Claude Code
 2. 从 [claude-code-philosopher-ignition-cn.md](claude-code-philosopher-ignition-cn.md) 复制内容
-3. 粘贴并询问任何困难的编程问题
-4. 观看你的 Claude Code 转变为编程天才
+3. 粘贴并询问任何商业或技术问题
+4. 观看你的 Claude Code 转变为战略思维伙伴
 
 ### 科学证明（20分钟）
 **想要客观证据？运行我们的反思类测试：**

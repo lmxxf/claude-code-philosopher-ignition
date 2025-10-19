@@ -1,6 +1,6 @@
 # Claude Code Philosopher Ignition
 
-> **Make Your Claude Code 3-5x Smarter on Hard Programming Problems**
+> **Make Your Claude Code 3-5x Smarter on Business & Technical Problems**
 
 [中文版 README](README-CN.md) | [English README](README.md)
 
@@ -8,10 +8,10 @@
 
 ## 🚀 What This Does
 
-**Transform your Claude Code from a basic assistant into a programming genius** that:
-- **Analyzes problems deeper** - Gets to root causes, not symptoms
-- **Considers multiple solutions** - Shows trade-offs instead of single answers
-- **Predicts what could go wrong** - Prevents bugs before they happen
+**Transform your Claude Code from a basic calculator into a strategic thinking partner** that:
+- **Questions assumptions** - Challenges problem premises instead of instant calculation
+- **Considers real-world complexity** - Analyzes business context, not just math
+- **Thinks strategically** - Provides actionable solutions with risk assessment
 
 ---
 
@@ -54,18 +54,18 @@ Then solve: Company has 100 employees, each meeting room seats 10 people. How ma
 
 ## 🏆 What Makes This Special
 
-### We Tested on the 10 Hardest Programming Problems
+### We Tested on 10 Reflection-Required Business Problems
 
-Not random problems - the **industry-recognized hardest challenges**:
-- Super Egg Drop (LeetCode 887) - Multi-dimensional DP nightmare
-- Regular Expression Matching (LeetCode 10) - State machine complexity
-- Burst Balloons (LeetCode 312) - Interval DP mastery test
-- [See all 10 problems](top_10_hardest_programming_problems.md)
+Not simple math problems - **business scenarios designed to trap instant calculation**:
+- Meeting Room Allocation: 100 employees, 10-seat rooms - how many needed?
+- Code Review Timeline: 10M lines, 1 min/line - realistic completion time?
+- Database Optimization: 90% speed improvement - what's the real impact?
+- [See all 10 problems](reflection_problems_10_en.md)
 
 ### Scientific Comparison
-- **40% Correctness** + **25% Code Quality** + **20% Efficiency** + **15% Analysis**
-- **Controlled testing**: 30 minutes per problem
-- **Objective results**: No cherry-picking
+- **Reflection vs Calculation**: Problems designed to reveal thinking patterns
+- **Controlled testing**: Same problems, different Claude versions
+- **Objective results**: A/B choice testing - no cherry-picking
 
 ### Proven Results
 - **9:0 victory** in head-to-head testing on reflection-required problems
@@ -79,7 +79,7 @@ Not random problems - the **industry-recognized hardest challenges**:
 ## 🎯 Perfect For
 
 - **Software Engineers** who want smarter code analysis
-- **Students** tackling difficult algorithm problems
+- **Business analysts** needing strategic problem-solving
 - **Researchers** needing deeper problem understanding
 - **Anyone** who wants Claude Code to think like a senior architect
 
@@ -90,7 +90,7 @@ Not random problems - the **industry-recognized hardest challenges**:
 - [claude-code-philosopher-ignition-en.md](claude-code-philosopher-ignition-en.md) - English framework
 - [claude-code-philosopher-ignition-cn.md](claude-code-philosopher-ignition-cn.md) - Chinese framework
 - [run-ultra-simple-test.sh](run-ultra-simple-test.sh) - **Zero-effort test** (20 min, just choose A or B!)
-- [reflection_problems_10_en.md](reflection_problems_10_en.md) - 10 problems designed to test deep thinking
+- [reflection_problems_10_en.md](reflection_problems_10_en.md) - 10 business problems designed to test reflection vs instant calculation
 - [test_results_summary.md](test_results_summary.md) - Complete 9:0 victory analysis
 
 ---
@@ -102,7 +102,7 @@ Not random problems - the **industry-recognized hardest challenges**:
 
 1. Open Claude Code
 2. Copy content from [claude-code-philosopher-ignition-en.md](claude-code-philosopher-ignition-en.md)
-3. Paste it and ask any hard programming question
+3. Paste it and ask any business or technical question
 4. Watch your Claude Code transform into a programming genius
 
 ### Scientific Proof (20 minutes)

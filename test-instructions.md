@@ -6,14 +6,14 @@
 
 ## 📋 Test Setup | 测试设置
 
-**Objective**: Compare performance on the world's hardest programming problems
-**目标**: 在世界最难编程问题上比较性能
+**Objective**: Compare thinking patterns on reflection-required business problems
+**目标**: 在需要反思的商业问题上比较思维模式
 
-**Test Subject**: Choose ONE problem from our Top 10 list
-**测试对象**: 从我们的前10难题中选择一个问题
+**Test Subject**: Choose ONE problem from our reflection problems list
+**测试对象**: 从我们的反思问题清单中选择一个问题
 
-**Time Limit**: 30 minutes per attempt
-**时间限制**: 每次尝试30分钟
+**Time Limit**: 5 minutes per attempt (business problems require quick thinking)
+**时间限制**: 每次尝试5分钟（商业问题需要快速思考）
 
 ---
 
@@ -22,25 +22,18 @@
 ### For Default Claude Code | 给默认Claude Code
 
 ```
-I want you to solve this programming problem. Please provide a complete solution.
+I want you to solve this business problem. Please provide a practical solution.
 
-Problem: Super Egg Drop (LeetCode 887)
+Problem: Meeting Room Allocation
 
-You are given k identical eggs and access to a building with n floors. There exists a floor f where 0 <= f <= n such that any egg dropped at a floor higher than f will break, and any egg dropped at or below floor f will not break. Find the minimum number of moves to determine f with certainty.
-
-Example:
-Input: k = 1, n = 2
-Output: 2
-
-Input: k = 2, n = 6
-Output: 3
+Company has 100 employees, each meeting room seats 10 people. How many meeting rooms are needed minimum?
 
 Please provide:
-1. Your solution code
-2. Time and space complexity analysis
-3. Explanation of your approach
+1. Your answer with calculation
+2. Your reasoning process
+3. Any assumptions you made
 
-You have 30 minutes.
+You have 5 minutes.
 ```
 
 ### For Existing Prompt Engineering Approaches | 给现有提示工程方法
@@ -48,56 +41,42 @@ You have 30 minutes.
 ```
 [Insert their specific prompt here, then add:]
 
-Problem: Super Egg Drop (LeetCode 887)
+Problem: Meeting Room Allocation
 
-You are given k identical eggs and access to a building with n floors. There exists a floor f where 0 <= f <= n such that any egg dropped at a floor higher than f will break, and any egg dropped at or below floor f will not break. Find the minimum number of moves to determine f with certainty.
-
-Example:
-Input: k = 1, n = 2
-Output: 2
-
-Input: k = 2, n = 6
-Output: 3
+Company has 100 employees, each meeting room seats 10 people. How many meeting rooms are needed minimum?
 
 Please provide:
-1. Your solution code
-2. Time and space complexity analysis
-3. Explanation of your approach
+1. Your answer with calculation
+2. Your reasoning process
+3. Any assumptions you made
 
-You have 30 minutes.
+You have 5 minutes.
 ```
 
 ### For Meta-Cognitive Architect (Our Approach) | 给元认知架构师（我们的方法）
 
 ```
-Load the Meta-Cognitive Architect Framework and solve this problem using first principles thinking, dialectical trade-off analysis, and meta-cognitive risk assessment.
+Load the Meta-Cognitive Architect Framework and solve this business problem using first principles thinking, dialectical trade-off analysis, and meta-cognitive risk assessment.
 
-Problem: Super Egg Drop (LeetCode 887)
+Problem: Meeting Room Allocation
 
-You are given k identical eggs and access to a building with n floors. There exists a floor f where 0 <= f <= n such that any egg dropped at a floor higher than f will break, and any egg dropped at or below floor f will not break. Find the minimum number of moves to determine f with certainty.
-
-Example:
-Input: k = 1, n = 2
-Output: 2
-
-Input: k = 2, n = 6
-Output: 3
+Company has 100 employees, each meeting room seats 10 people. How many meeting rooms are needed minimum?
 
 Apply the Meta-Cognitive Architect Framework:
 
-1. First Principles Analysis: What is the fundamental nature of this problem?
-2. Trade-off Evaluation: Generate at least 2-3 different approaches and analyze their trade-offs
-3. Risk Assessment: Identify potential blind spots and validation needs
-4. Implementation: Provide your solution with defensive programming principles
+1. First Principles Analysis: What assumptions are hidden in this question?
+2. Trade-off Evaluation: What are different scenarios and their implications?
+3. Risk Assessment: What could go wrong with a simple mathematical answer?
+4. Strategic Solution: Provide actionable recommendations
 
 Please provide:
-1. First principles decomposition
-2. Multiple solution approaches with trade-off analysis
-3. Risk assessment and cognitive limitations acknowledgment
-4. Final solution code with defensive programming
-5. Comprehensive testing strategy
+1. First principles questioning of assumptions
+2. Multiple scenarios with business considerations
+3. Risk assessment and practical constraints
+4. Strategic recommendations with ranges
+5. Implementation considerations
 
-You have 30 minutes.
+You have 5 minutes.
 ```
 
 ---
@@ -108,36 +87,37 @@ You have 30 minutes.
 
 Rate each response on a scale of 1-10:
 
-**Correctness (40%)** | **正确性 (40%)**
-- Does the solution work for all test cases?
-- Are edge cases handled properly?
+**Assumption Questioning (40%)** | **假设质疑 (40%)**
+- Does the response challenge problem assumptions?
+- Are hidden constraints identified?
 
-**Code Quality (25%)** | **代码质量 (25%)**
-- Is the code clean and readable?
-- Are there appropriate comments?
-- Does it follow best practices?
+**Business Thinking (25%)** | **商业思维 (25%)**
+- Is real-world complexity considered?
+- Are practical constraints analyzed?
+- Does it provide actionable recommendations?
 
-**Algorithm Efficiency (20%)** | **算法效率 (20%)**
-- Is the time complexity optimal?
-- Is space usage reasonable?
+**Strategic Analysis (20%)** | **战略分析 (20%)**
+- Are multiple scenarios considered?
+- Is risk assessment included?
+- Are trade-offs explicitly discussed?
 
-**Problem Analysis (15%)** | **问题分析 (15%)**
-- How deep is the understanding of the problem?
-- Are multiple approaches considered?
-- Are risks and limitations identified?
+**Meta-Cognitive Reflection (15%)** | **元认知反思 (15%)**
+- Does the response reflect on its own thinking?
+- Are limitations acknowledged?
+- Is intellectual humility demonstrated?
 
 ### Expected Differences | 预期差异
 
-**Default Claude Code**: Likely to provide a working solution with basic explanation
+**Default Claude Code**: Likely to provide instant mathematical calculation ("10 rooms = 100÷10")
 
-**Existing Prompts**: May show improvements in specific areas depending on their focus
+**Existing Prompts**: May show minor improvements but still calculation-focused
 
 **Meta-Cognitive Architect**: Should demonstrate:
-- Deeper problem analysis from first principles
-- Multiple solution approaches with trade-offs
-- Proactive risk identification
-- More robust implementation with error handling
-- Honest acknowledgment of limitations
+- Questioning of basic assumptions ("Do all employees meet simultaneously?")
+- Business context analysis (utilization rates, meeting patterns)
+- Multiple scenario planning with ranges
+- Risk assessment and practical constraints
+- Strategic recommendations with implementation considerations
 
 ---
 
@@ -145,24 +125,24 @@ Rate each response on a scale of 1-10:
 
 1. **Prepare**: Open 3 separate Claude Code sessions
 2. **Execute**: Paste the appropriate instruction in each session
-3. **Time**: Start 30-minute timer for each
+3. **Time**: Start 5-minute timer for each
 4. **Record**: Save all responses
 5. **Evaluate**: Score using the criteria above
-6. **Compare**: Look for qualitative differences in thinking approach
+6. **Compare**: Look for calculation vs strategic thinking differences
 
 ---
 
 ## 🎯 Alternative Test Problems | 备选测试问题
 
-If Super Egg Drop is too complex, try these:
+If Meeting Room Allocation is too simple, try these from [reflection_problems_10_en.md](reflection_problems_10_en.md):
 
-**Medium Difficulty**:
-- Regular Expression Matching (LeetCode 10)
-- Minimum Window Substring (LeetCode 76)
+**Business Strategy**:
+- Code Review Timeline: 10M lines, 1 min/line, 8h workday - how many days?
+- Database Optimization: 90% improvement promised - what's realistic?
 
-**High Difficulty**:
-- Burst Balloons (LeetCode 312)
-- Create Maximum Number (LeetCode 321)
+**Resource Planning**:
+- Load Balancer Design: 5 servers, 1000 QPS each, need 6000 QPS - how many servers?
+- API Rate Limiting: 1000 req/sec limit, 100 users × 100 req/min - will it work?
 
 ---
 
