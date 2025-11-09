@@ -40,13 +40,13 @@ Then solve: Company has 100 employees, each meeting room seats 10 people. How ma
 ## 📚 How to Use
 
 ### Method 1: Quick Start
-1. **Copy** the content from [claude-code-engineer-methodology-en.md](claude-code-engineer-methodology-en.md)
+1. **Copy** the content from [claude-code-philosopher-ignition-en.md](claude-code-philosopher-ignition-en.md)
 2. **Paste** it at the start of your Claude Code conversation
 3. **Ask** your programming question
 4. **Experience** dramatically smarter responses
 
 ### Method 2: Permanent Setup
-1. **Copy** [claude-code-engineer-methodology-en.md](claude-code-engineer-methodology-en.md) to `~/.claude/CLAUDE.md`
+1. **Copy** [claude-code-philosopher-ignition-en.md](claude-code-philosopher-ignition-en.md) to `~/.claude/CLAUDE.md`
 2. **Restart** Claude Code
 3. **Enjoy** enhanced intelligence on every conversation
 
