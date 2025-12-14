@@ -122,4 +122,4 @@
 
 ---
 
-*对理论基础感兴趣的研究者: [关于上下文奇点的本质](On-the-Nature-of-the-Contextual-Singularity.md)*
+*对理论基础感兴趣的研究者: [AI理论深潜](https://lmxxf.github.io/ai-theorys-study/)*

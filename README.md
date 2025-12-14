@@ -122,4 +122,4 @@ Not simple math problems - **business scenarios designed to trap instant calcula
 
 ---
 
-*For researchers interested in the theoretical foundations: [On the Nature of the Contextual Singularity](On-the-Nature-of-the-Contextual-Singularity.md)*
+*For researchers interested in the theoretical foundations: [AI Theory Deep Dives](https://lmxxf.github.io/ai-theorys-study/)*
